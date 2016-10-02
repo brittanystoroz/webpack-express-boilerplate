@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../App.css';
 import $ from 'jquery';
 
 export default class WeatherApp extends React.Component {
@@ -25,7 +24,7 @@ export default class WeatherApp extends React.Component {
 
   render() {
     return (
-      <div className={styles.app}>
+      <div>
         Weather Tracker
       </div>
     );

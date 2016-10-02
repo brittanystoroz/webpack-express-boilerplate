@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../App.css';
 import $ from 'jquery';
 
 export default class Settings extends React.Component {
